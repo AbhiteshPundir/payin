@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.history/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.next/
+.vercel
+.cache/
+tmp/
+temp/
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend dependencies and build
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# Python virtual environments
+venv/
+.venv/
+
+# Misc
+*.local
+*.sublime-workspace
+*.sublime-project
+
+# IDEs
+.idea/
+*.iml
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Others
+*.swp
+*.swo
+*.bak
+
+# Aceternity UI cache (if any)
+.aceternity/
